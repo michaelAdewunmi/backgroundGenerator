@@ -1,0 +1,50 @@
+#bg_generator_body {
+    background: linear-gradient(to right, red, yellow);
+    font-family: Lato, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    flex: 1 0 100%;
+}
+
+h3 {
+
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.color_picker_div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin: 30px auto;
+    width: 100%;
+}
+
+.input_holder {
+    margin-top: 20px;
+}
+
+#color1, #color2 {
+    margin-right: 20px;
+}
